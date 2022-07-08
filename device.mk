@@ -31,6 +31,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_land_l=14 \
     ro.com.google.ime.kb_pad_land_r=14
 
+# Mark as official build
+OFFICIAL_BUILD := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     FlamingoOnePlus7TProFrameworks \
@@ -39,7 +42,6 @@ PRODUCT_PACKAGES += \
     OnePlus7TProSettings \
     OnePlus7TProSettingsProvider \
     OnePlus7TProSystemUI
-
 
 # Stock fingerprint for ARCore
 PRODUCT_SYSTEM_PROPERTIES += \
