@@ -35,6 +35,7 @@ OFFICIAL_BUILD := true
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AlertSliderOverlay \
     FlamingoOnePlus7TProFrameworks \
     FlamingoOnePlus7TProSystemUI \
     OnePlus7TProFrameworks \
